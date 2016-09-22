@@ -1,0 +1,57 @@
+{
+  "name": "SimpleShopify",
+  "lowCaseName": "simpleshopify",
+  "description": "Simple Shopify for MODX",
+  "author": "Wayne Roddy",
+  "version": "1.0.0",
+  "package": {
+      "elements": {
+          "snippets": [
+            {
+              "name": "ShopifyProductsJson"
+            }
+          ],
+          "chunks": [
+              {
+                "name": "simpleshopify_head",
+                "file": "simpleshopify_head.chunk.tpl"
+              },
+              {
+                "name": "simpleshopify_products",
+                "file": "simpleshopify_products.chunk.tpl"
+              },
+              {
+                "name": "simpleshopify_cart",
+                "file": "simpleshopify_cart.chunk.tpl"
+              },
+              {
+                "name": "simpleshopify_js",
+                "file": "simpleshopify_js.chunk.tpl"
+              }
+          ]
+      },
+      "systemSettings": [
+        {
+          "key": "shopify_key",
+          "value": ""
+        },
+        {
+          "key": "shopify_domain",
+          "value": ""
+        },
+        {
+          "key": "shopify_token",
+          "value": ""
+        },
+        {
+          "key": "shopify_password",
+          "value": ""
+        }
+      ]
+  },
+  "build": {
+    "readme": "docs/index.md",
+    "license": "docs/license.md",
+    "changelog": "docs/changelog.md"
+  }
+}
