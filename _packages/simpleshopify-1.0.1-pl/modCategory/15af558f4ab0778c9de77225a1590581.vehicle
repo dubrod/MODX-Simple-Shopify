@@ -1,0 +1,149 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Chunks' => 
+    array (
+      '31a06b680c83fb1e5f2e57ef7816bea5' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"simpleshopify_head","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<style>\\n.shopifyx .btn {\\n  background-image: linear-gradient(to bottom, rgba(223,239,242,0.2) 0%, rgba(223,239,242,0) 70%);\\n  transition-duration: .3s;\\n  transition-timing-function: ease;\\n  transition-property: background-color;\\n  text-decoration: none;\\n  cursor: pointer;\\n  border: none;\\n  -webkit-appearance: none;\\n  appearance: none;\\n  display: inline-block;\\n  line-height: 2rem;\\n  height: auto;\\n  min-height: 2rem;\\n  padding: .5rem 1rem;\\n  color: #fff;\\n  background-color: #00B7D1\\n}\\n\\n.shopifyx .btn:hover {color: #fff;background-color: #008a9e;}\\n\\n.shopifyx .btn-secondary-small {\\n  background-image: linear-gradient(to bottom, rgba(223,239,242,0.2) 0%, rgba(223,239,242,0) 70%);\\n  transition-duration: .3s;\\n  transition-timing-function: ease;\\n  transition-property: background-color;\\n  text-decoration: none;\\n  cursor: pointer;\\n  border: none;\\n  -webkit-appearance: none;\\n  appearance: none;\\n  display: inline-block;\\n  line-height: 2rem;\\n  height: auto;\\n  min-height: 2rem;\\n  padding: .5rem 1rem;\\n  padding: 0 1rem !important;\\n  color: #fff;\\n  background-color: #FF337A\\n}\\n\\n.shopifyx .btn-secondary-small:hover {color: #fff; background-color: #ff0059}\\n.shopifyx h2{color:#00B7D1;}\\n.shopifyx tfoot td:last-of-type{background:#efefef;text-align:center;padding:1rem 0;font-size:1.25rem;}\\n.shopifyx figcaption input[type=\\"number\\"]{height:3rem;width:2.8rem;}\\n.shopifyx figcaption label{display:block;padding:.25rem;}\\n.shopifyx figcaption select{width:100%;height:3rem;margin-bottom:.5rem;}\\n\\n.cards.shopifyx .card,.cards.shopifyx .card-2,.cards.shopifyx .card-3,.cards.shopifyx .card-4 {\\n  background-color: #fcfcfc;border-radius: .5rem;display: flex;flex-flow: column nowrap;\\n}\\n.cards.shopifyx figcaption select{background-color:#FFF;}\\n.cards {display: flex;flex-flow: row wrap;justify-content: space-between;padding: 1rem 0 0 0}\\n.cards .card {flex-basis: 100%;max-width: 100%;margin-bottom: 1rem}\\n.cards .card-2 {flex: 0 0 calc(50.5% - 1rem);margin-bottom: 1rem}\\n.cards .card-3 {flex: 0 0 calc(33.8% - 1rem);margin-bottom: 1rem}\\n.cards .card-4 {flex: 0 0 calc(25.25% - 1rem);margin-bottom: 1rem}\\n.cards .card img,.cards .card-2 img,.cards .card-3 img,.cards .card-4 img {padding: 1rem}\\n.cards .card figcaption,.cards .card-2 figcaption,.cards .card-3 figcaption,.cards .card-4 figcaption {padding: 1rem;}\\n.cards .card figcaption strong,.cards .card-2 figcaption strong,.cards .card-3 figcaption strong,.cards .card-4 figcaption strong {\\n  display: block;font-size: 1.25rem;line-height: 1.5rem\\n}\\n\\n@media only screen and (max-width: 768px) {\\n  .cards .card,.cards .card-2,.cards .card-3,.cards .card-4 {\\n    flex-basis: 100%;\\n    max-width: 100%\\n  }\\n}\\n\\ntable.shopifyx {width: 100%; margin-bottom: 1rem; border: 1px solid #f7f7f7}\\ntable.shopifyx thead {background: #fcfcfc; border-bottom: 1px solid #f7f7f7}\\ntable.shopifyx th {text-align: left; padding: .5rem}\\ntable.shopifyx tr {border-bottom: 1px solid #f7f7f7;}\\ntable.shopifyx td {padding: .5rem}\\ntable.shopifyx.highlight tbody tr:nth-child(even) {transition: background-color .3s ease; background-color: #fcfcfc}\\ntable.shopifyx.highlight tbody tr:hover{background-color: rgba(0,183,209,0.25);}\\n\\n@media only screen and (max-width: 960px) {\\n  table.shopifyx,table.shopifyx thead,table.shopifyx tbody,table.shopifyx th,table.shopifyx td,table.shopifyx tr {display: block}\\n  table.shopifyx thead tr {position: absolute;top: -9999px;left: -9999px}\\n  table.shopifyx td {border: none; position: relative; padding-left: 33% !important;}\\n  table.shopifyx td:before {position: absolute; top: 6px; left: 6px; width: 45%; padding-right: 10px; white-space: nowrap; content: attr(data-label); font-weight: bold}\\n  table.shopifyx td:last-of-type:after {content: \\" \\"; height: 2px; background: #f7f7f7; width: 100%; position: absolute; top: 98%; left: 0}\\n  table.shopifyx tfoot{display:block;}\\n  table.shopifyx tfoot td{padding-left:0 !important;}\\n}\\n\\n<\\/style>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<style>\\n.shopifyx .btn {\\n  background-image: linear-gradient(to bottom, rgba(223,239,242,0.2) 0%, rgba(223,239,242,0) 70%);\\n  transition-duration: .3s;\\n  transition-timing-function: ease;\\n  transition-property: background-color;\\n  text-decoration: none;\\n  cursor: pointer;\\n  border: none;\\n  -webkit-appearance: none;\\n  appearance: none;\\n  display: inline-block;\\n  line-height: 2rem;\\n  height: auto;\\n  min-height: 2rem;\\n  padding: .5rem 1rem;\\n  color: #fff;\\n  background-color: #00B7D1\\n}\\n\\n.shopifyx .btn:hover {color: #fff;background-color: #008a9e;}\\n\\n.shopifyx .btn-secondary-small {\\n  background-image: linear-gradient(to bottom, rgba(223,239,242,0.2) 0%, rgba(223,239,242,0) 70%);\\n  transition-duration: .3s;\\n  transition-timing-function: ease;\\n  transition-property: background-color;\\n  text-decoration: none;\\n  cursor: pointer;\\n  border: none;\\n  -webkit-appearance: none;\\n  appearance: none;\\n  display: inline-block;\\n  line-height: 2rem;\\n  height: auto;\\n  min-height: 2rem;\\n  padding: .5rem 1rem;\\n  padding: 0 1rem !important;\\n  color: #fff;\\n  background-color: #FF337A\\n}\\n\\n.shopifyx .btn-secondary-small:hover {color: #fff; background-color: #ff0059}\\n.shopifyx h2{color:#00B7D1;}\\n.shopifyx tfoot td:last-of-type{background:#efefef;text-align:center;padding:1rem 0;font-size:1.25rem;}\\n.shopifyx figcaption input[type=\\"number\\"]{height:3rem;width:2.8rem;}\\n.shopifyx figcaption label{display:block;padding:.25rem;}\\n.shopifyx figcaption select{width:100%;height:3rem;margin-bottom:.5rem;}\\n\\n.cards.shopifyx .card,.cards.shopifyx .card-2,.cards.shopifyx .card-3,.cards.shopifyx .card-4 {\\n  background-color: #fcfcfc;border-radius: .5rem;display: flex;flex-flow: column nowrap;\\n}\\n.cards.shopifyx figcaption select{background-color:#FFF;}\\n.cards {display: flex;flex-flow: row wrap;justify-content: space-between;padding: 1rem 0 0 0}\\n.cards .card {flex-basis: 100%;max-width: 100%;margin-bottom: 1rem}\\n.cards .card-2 {flex: 0 0 calc(50.5% - 1rem);margin-bottom: 1rem}\\n.cards .card-3 {flex: 0 0 calc(33.8% - 1rem);margin-bottom: 1rem}\\n.cards .card-4 {flex: 0 0 calc(25.25% - 1rem);margin-bottom: 1rem}\\n.cards .card img,.cards .card-2 img,.cards .card-3 img,.cards .card-4 img {padding: 1rem}\\n.cards .card figcaption,.cards .card-2 figcaption,.cards .card-3 figcaption,.cards .card-4 figcaption {padding: 1rem;}\\n.cards .card figcaption strong,.cards .card-2 figcaption strong,.cards .card-3 figcaption strong,.cards .card-4 figcaption strong {\\n  display: block;font-size: 1.25rem;line-height: 1.5rem\\n}\\n\\n@media only screen and (max-width: 768px) {\\n  .cards .card,.cards .card-2,.cards .card-3,.cards .card-4 {\\n    flex-basis: 100%;\\n    max-width: 100%\\n  }\\n}\\n\\ntable.shopifyx {width: 100%; margin-bottom: 1rem; border: 1px solid #f7f7f7}\\ntable.shopifyx thead {background: #fcfcfc; border-bottom: 1px solid #f7f7f7}\\ntable.shopifyx th {text-align: left; padding: .5rem}\\ntable.shopifyx tr {border-bottom: 1px solid #f7f7f7;}\\ntable.shopifyx td {padding: .5rem}\\ntable.shopifyx.highlight tbody tr:nth-child(even) {transition: background-color .3s ease; background-color: #fcfcfc}\\ntable.shopifyx.highlight tbody tr:hover{background-color: rgba(0,183,209,0.25);}\\n\\n@media only screen and (max-width: 960px) {\\n  table.shopifyx,table.shopifyx thead,table.shopifyx tbody,table.shopifyx th,table.shopifyx td,table.shopifyx tr {display: block}\\n  table.shopifyx thead tr {position: absolute;top: -9999px;left: -9999px}\\n  table.shopifyx td {border: none; position: relative; padding-left: 33% !important;}\\n  table.shopifyx td:before {position: absolute; top: 6px; left: 6px; width: 45%; padding-right: 10px; white-space: nowrap; content: attr(data-label); font-weight: bold}\\n  table.shopifyx td:last-of-type:after {content: \\" \\"; height: 2px; background: #f7f7f7; width: 100%; position: absolute; top: 98%; left: 0}\\n  table.shopifyx tfoot{display:block;}\\n  table.shopifyx tfoot td{padding-left:0 !important;}\\n}\\n\\n<\\/style>\\n"}',
+        'guid' => '4a29ca8ba67f789e2c501a12c963fe70',
+        'native_key' => NULL,
+        'signature' => '4390138fae90f323dca58d7d2808c29a',
+      ),
+      '0476b709575436dd4571b97b5f64f6a4' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"simpleshopify_products","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<div class=\\"cards shopifyx\\" data-bind=\\"foreach: products\\">\\n    <figure class=\\"card-3\\">\\n        <img data-bind=\\"attr: { src: img, alt: name }\\">\\n        <figcaption>\\n            <strong data-bind=\\"text: name\\"><\\/strong>\\n            <p data-bind=\\"text: desc\\"><\\/p>\\n            <h2><small>Starting at:<\\/small> $<span data-bind=\\"text: price\\"><\\/span><\\/h2>\\n            <label data-bind=\\"text: optname\\"><\\/label>\\n            <select data-bind=\'\\n                visible: option()[0],\\n                options: option(),\\n                optionsCaption: \\"Select...\\",\\n                value: option(),\\n                selectedOptions: chosenOptions,\\n                event:{change: $parent.updatePrice}\\n                \'><\\/select>\\n            <select data-bind=\'\\n                visible: option2()[0],\\n                options: option2(),\\n                optionsCaption: \\"Select...\\",\\n                value: option2(),\\n                selectedOptions: chosenOptions2,\\n                event:{change: $parent.updatePrice2}\\n                \'><\\/select>\\n            <input type=\\"number\\" min=\\"1\\" placeholder=\\"1\\" data-bind=\'value: quantity, valueUpdate: \\"afterkeydown\\"\' \\/>\\n            <button class=\\"btn\\" data-bind=\\"click: $parent.addToCart\\">ADD TO CART<\\/button>\\n        <\\/figcaption>\\n    <\\/figure>\\n<\\/div>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<div class=\\"cards shopifyx\\" data-bind=\\"foreach: products\\">\\n    <figure class=\\"card-3\\">\\n        <img data-bind=\\"attr: { src: img, alt: name }\\">\\n        <figcaption>\\n            <strong data-bind=\\"text: name\\"><\\/strong>\\n            <p data-bind=\\"text: desc\\"><\\/p>\\n            <h2><small>Starting at:<\\/small> $<span data-bind=\\"text: price\\"><\\/span><\\/h2>\\n            <label data-bind=\\"text: optname\\"><\\/label>\\n            <select data-bind=\'\\n                visible: option()[0],\\n                options: option(),\\n                optionsCaption: \\"Select...\\",\\n                value: option(),\\n                selectedOptions: chosenOptions,\\n                event:{change: $parent.updatePrice}\\n                \'><\\/select>\\n            <select data-bind=\'\\n                visible: option2()[0],\\n                options: option2(),\\n                optionsCaption: \\"Select...\\",\\n                value: option2(),\\n                selectedOptions: chosenOptions2,\\n                event:{change: $parent.updatePrice2}\\n                \'><\\/select>\\n            <input type=\\"number\\" min=\\"1\\" placeholder=\\"1\\" data-bind=\'value: quantity, valueUpdate: \\"afterkeydown\\"\' \\/>\\n            <button class=\\"btn\\" data-bind=\\"click: $parent.addToCart\\">ADD TO CART<\\/button>\\n        <\\/figcaption>\\n    <\\/figure>\\n<\\/div>\\n"}',
+        'guid' => '7c35dd016bcaaace2bf6ace33bf6d9b3',
+        'native_key' => NULL,
+        'signature' => '2f613eacea416e6abbbde5b4ef1ca86e',
+      ),
+      '981e69331c9e106c2aba3ffc4b7b9c6f' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"simpleshopify_cart","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<table cellspacing=\\"0\\" cellpadding=\\"0\\" class=\\"shopifyx highlight\\">\\n    <thead><tr><th>Product<\\/th><th>Price<\\/th><th>Quantity<\\/th><th>Subtotal<\\/th><th><\\/th><\\/tr><\\/thead>\\n    <tbody data-bind=\\"template:{ name: \'cart-row\', foreach: cart}\\"><\\/tbody>\\n    <tfoot>\\n        <tr>\\n            <td colspan=\\"4\\"><\\/td>\\n            <td>\\n                <strong>TOTAL:<\\/strong>\\n                $<span data-bind=\'text: grandTotal()\'><\\/span>\\n            <\\/td>\\n        <\\/tr>\\n    <\\/tfoot>\\n<\\/table>\\n\\n<div style=\\"padding:10px 0;text-align:right;\\">\\n    <button class=\\"btn-gray\\" onclick=\\"resetCart()\\">EMPTY CART<\\/button>\\n    <button class=\\"btn\\" onclick=\\"goCheckout()\\">CHECKOUT<\\/button>\\n<\\/div>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<table cellspacing=\\"0\\" cellpadding=\\"0\\" class=\\"shopifyx highlight\\">\\n    <thead><tr><th>Product<\\/th><th>Price<\\/th><th>Quantity<\\/th><th>Subtotal<\\/th><th><\\/th><\\/tr><\\/thead>\\n    <tbody data-bind=\\"template:{ name: \'cart-row\', foreach: cart}\\"><\\/tbody>\\n    <tfoot>\\n        <tr>\\n            <td colspan=\\"4\\"><\\/td>\\n            <td>\\n                <strong>TOTAL:<\\/strong>\\n                $<span data-bind=\'text: grandTotal()\'><\\/span>\\n            <\\/td>\\n        <\\/tr>\\n    <\\/tfoot>\\n<\\/table>\\n\\n<div style=\\"padding:10px 0;text-align:right;\\">\\n    <button class=\\"btn-gray\\" onclick=\\"resetCart()\\">EMPTY CART<\\/button>\\n    <button class=\\"btn\\" onclick=\\"goCheckout()\\">CHECKOUT<\\/button>\\n<\\/div>\\n"}',
+        'guid' => '9ccb9c7754a6a5ac376afa1edf8a7358',
+        'native_key' => NULL,
+        'signature' => 'fa75d90ae81e59be207f5ebad099946b',
+      ),
+      'a44d902f9bccbd51e82b49ef8452defb' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"simpleshopify_js","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<script>\\n[[-\\/\\/Static Product Database Feed\\n\\/\\/var koProducts = [ [[-$static_json_example]] ]; ]]\\n[[-Dynamic Product Database Feed]]\\nvar koProducts = [ [[ShopifyProductsJson]] ];\\n<\\/script>\\n<script type=\\"text\\/html\\" id=\\"cart-row\\">\\n    <tr>\\n        <td data-label=\\"Product\\" data-bind=\\"text: name\\"><\\/td>\\n        <td data-label=\\"Price\\">$<span data-bind=\\"text: price\\"><\\/span><\\/td>\\n        <td data-label=\\"Quantity\\" data-bind=\\"text: quantity\\">1<\\/td>\\n        <td data-label=\\"Subtotal\\">$<span data-bind=\\"text: subtotal\\"><\\/span><\\/td>\\n        <td><button class=\\"btn-secondary-small\\" data-bind=\\"click: $parent.removeFromCart\\">REMOVE<\\/button><\\/td>\\n    <\\/tr>\\n<\\/script>\\n\\n<script src=\\"http:\\/\\/sdks.shopifycdn.com\\/js-buy-sdk\\/latest\\/shopify-buy.polyfilled.globals.min.js\\"><\\/script>\\n<script>\\n\\nfunction resetCart(){\\n    localStorage.removeItem(\'cartStorage\');\\n    var cartId = localStorage.getItem(\'lastCartId\');\\n    localStorage.removeItem(\'lastCartId\');\\n    localStorage.removeItem(\'checkoutUrl\');\\n    localStorage.removeItem(\'carts.\'+cartId);\\n    document.location.reload(true);\\n}\\n\\nfunction goCheckout(){\\n    var cUrl = localStorage.getItem(\'checkoutUrl\');\\n    window.open(cUrl,\'_blank\');\\n}\\n\\n[[-https:\\/\\/github.com\\/Shopify\\/js-buy-sdk\\/blob\\/master\\/examples\\/cart\\/index.js]]\\n\\nfunction addToShopifyCart(pid,variant_array,quantity){\\n\\n    var client = ShopifyBuy.buildClient({\\n      apiKey: \'[[++simpleshopify.shopify_token]]\',\\n      domain: \'[[++simpleshopify.shopify_domain]]\',\\n      appId: \'6\'\\n    });\\n\\n    var cart;\\n    var checkoutString = \\"\\";\\n    var checkoutUrl;\\n\\n    if(localStorage.getItem(\'lastCartId\')) {\\n        client.fetchCart(localStorage.getItem(\'lastCartId\')).then(function(remoteCart) {\\n          cart = remoteCart;\\n        });\\n    } else {\\n        client.createCart().then(function (newCart) {\\n          cart = newCart;\\n          localStorage.setItem(\'lastCartId\', cart.id);\\n        });\\n    }\\n    \\/* done building Client *\\/\\n\\n    \\/* Add Product *\\/\\n    client.fetchProduct(pid).then(function () {\\n\\t    cart.addVariants({variant: variant_array, quantity: quantity}).then(function (cart) {\\n            localStorage.setItem(\'checkoutUrl\', cart.checkoutUrl);\\n    \\t}).catch(function (errors) {\\n            console.log(\'Fail\');\\n            console.error(errors);\\n        });\\n    });\\n\\n}\\n\\nfunction removeFromShopifyCart(variant){\\n    var cartId = localStorage.getItem(\'lastCartId\');\\n    var cartObj = JSON.parse(localStorage.getItem(\'carts.\'+cartId));\\n\\n    cartObj[\\"cart\\"][\\"line_items\\"].filter(function (item,index) {\\n        if(item.variant_id === variant.id){\\n            cartObj[\\"cart\\"][\\"line_items\\"].splice(index,1);\\n            localStorage.setItem(\'carts.\'+cartId, JSON.stringify(cartObj));\\n        }\\n    });\\n\\n    [[-refresh checkoutUrl]]\\n    var client = ShopifyBuy.buildClient({\\n      apiKey: \'[[++simpleshopify.shopify_token]]\',\\n      domain: \'[[++simpleshopify.shopify_domain]]\',\\n      appId: \'6\'\\n    });\\n    client.fetchCart(localStorage.getItem(\'lastCartId\')).then(function(remoteCart) {\\n        cart = remoteCart;\\n        localStorage.setItem(\'checkoutUrl\', cart.checkoutUrl);\\n    });\\n\\n}\\n<\\/script>\\n\\n<script type=\\"text\\/javascript\\" src=\\"assets\\/components\\/simpleshopify\\/js\\/knockout-3.4.0.js\\"><\\/script>\\n<script type=\\"text\\/javascript\\" src=\\"assets\\/components\\/simpleshopify\\/js\\/ko-cart.js\\"><\\/script>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<script>\\n[[-\\/\\/Static Product Database Feed\\n\\/\\/var koProducts = [ [[-$static_json_example]] ]; ]]\\n[[-Dynamic Product Database Feed]]\\nvar koProducts = [ [[ShopifyProductsJson]] ];\\n<\\/script>\\n<script type=\\"text\\/html\\" id=\\"cart-row\\">\\n    <tr>\\n        <td data-label=\\"Product\\" data-bind=\\"text: name\\"><\\/td>\\n        <td data-label=\\"Price\\">$<span data-bind=\\"text: price\\"><\\/span><\\/td>\\n        <td data-label=\\"Quantity\\" data-bind=\\"text: quantity\\">1<\\/td>\\n        <td data-label=\\"Subtotal\\">$<span data-bind=\\"text: subtotal\\"><\\/span><\\/td>\\n        <td><button class=\\"btn-secondary-small\\" data-bind=\\"click: $parent.removeFromCart\\">REMOVE<\\/button><\\/td>\\n    <\\/tr>\\n<\\/script>\\n\\n<script src=\\"http:\\/\\/sdks.shopifycdn.com\\/js-buy-sdk\\/latest\\/shopify-buy.polyfilled.globals.min.js\\"><\\/script>\\n<script>\\n\\nfunction resetCart(){\\n    localStorage.removeItem(\'cartStorage\');\\n    var cartId = localStorage.getItem(\'lastCartId\');\\n    localStorage.removeItem(\'lastCartId\');\\n    localStorage.removeItem(\'checkoutUrl\');\\n    localStorage.removeItem(\'carts.\'+cartId);\\n    document.location.reload(true);\\n}\\n\\nfunction goCheckout(){\\n    var cUrl = localStorage.getItem(\'checkoutUrl\');\\n    window.open(cUrl,\'_blank\');\\n}\\n\\n[[-https:\\/\\/github.com\\/Shopify\\/js-buy-sdk\\/blob\\/master\\/examples\\/cart\\/index.js]]\\n\\nfunction addToShopifyCart(pid,variant_array,quantity){\\n\\n    var client = ShopifyBuy.buildClient({\\n      apiKey: \'[[++simpleshopify.shopify_token]]\',\\n      domain: \'[[++simpleshopify.shopify_domain]]\',\\n      appId: \'6\'\\n    });\\n\\n    var cart;\\n    var checkoutString = \\"\\";\\n    var checkoutUrl;\\n\\n    if(localStorage.getItem(\'lastCartId\')) {\\n        client.fetchCart(localStorage.getItem(\'lastCartId\')).then(function(remoteCart) {\\n          cart = remoteCart;\\n        });\\n    } else {\\n        client.createCart().then(function (newCart) {\\n          cart = newCart;\\n          localStorage.setItem(\'lastCartId\', cart.id);\\n        });\\n    }\\n    \\/* done building Client *\\/\\n\\n    \\/* Add Product *\\/\\n    client.fetchProduct(pid).then(function () {\\n\\t    cart.addVariants({variant: variant_array, quantity: quantity}).then(function (cart) {\\n            localStorage.setItem(\'checkoutUrl\', cart.checkoutUrl);\\n    \\t}).catch(function (errors) {\\n            console.log(\'Fail\');\\n            console.error(errors);\\n        });\\n    });\\n\\n}\\n\\nfunction removeFromShopifyCart(variant){\\n    var cartId = localStorage.getItem(\'lastCartId\');\\n    var cartObj = JSON.parse(localStorage.getItem(\'carts.\'+cartId));\\n\\n    cartObj[\\"cart\\"][\\"line_items\\"].filter(function (item,index) {\\n        if(item.variant_id === variant.id){\\n            cartObj[\\"cart\\"][\\"line_items\\"].splice(index,1);\\n            localStorage.setItem(\'carts.\'+cartId, JSON.stringify(cartObj));\\n        }\\n    });\\n\\n    [[-refresh checkoutUrl]]\\n    var client = ShopifyBuy.buildClient({\\n      apiKey: \'[[++simpleshopify.shopify_token]]\',\\n      domain: \'[[++simpleshopify.shopify_domain]]\',\\n      appId: \'6\'\\n    });\\n    client.fetchCart(localStorage.getItem(\'lastCartId\')).then(function(remoteCart) {\\n        cart = remoteCart;\\n        localStorage.setItem(\'checkoutUrl\', cart.checkoutUrl);\\n    });\\n\\n}\\n<\\/script>\\n\\n<script type=\\"text\\/javascript\\" src=\\"assets\\/components\\/simpleshopify\\/js\\/knockout-3.4.0.js\\"><\\/script>\\n<script type=\\"text\\/javascript\\" src=\\"assets\\/components\\/simpleshopify\\/js\\/ko-cart.js\\"><\\/script>\\n"}',
+        'guid' => '40504bd1372457895ba64983e4bcfaa0',
+        'native_key' => NULL,
+        'signature' => 'fc6d292fc88e83783a05edc81d6eb509',
+      ),
+    ),
+    'Snippets' => 
+    array (
+      '6a9bbf9e815655543c529e9f819ada20' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"ShopifyProductsJson","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"\\/* Shopify JSON FEED\\n*  Wayne Roddy ( wayne@modx.com )\\n*  Sept. 2016\\n*  I\'m not a PHP developer. No laughing\\n*\\/\\n\\n\\/\\/https:\\/\\/apikey:password@hostname\\/products.json\\n\\n$key = $modx->getOption(\'simpleshopify.shopify_key\');\\n$pw = $modx->getOption(\'simpleshopify.shopify_password\');\\n$dom = $modx->getOption(\'simpleshopify.shopify_domain\');\\n$url = \\"https:\\/\\/\\".$key.\\":\\".$pw.\\"@\\".$dom.\\"\\/products.json\\";\\n\\n$ch = curl_init();\\n$timeout = 5;\\ncurl_setopt($ch, CURLOPT_URL, $url);\\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);\\ncurl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout);\\n$data = curl_exec($ch);\\ncurl_close($ch);\\nreturn $data;","locked":0,"properties":"a:0:{}","moduleguid":"","static":0,"static_file":"","content":"\\/* Shopify JSON FEED\\n*  Wayne Roddy ( wayne@modx.com )\\n*  Sept. 2016\\n*  I\'m not a PHP developer. No laughing\\n*\\/\\n\\n\\/\\/https:\\/\\/apikey:password@hostname\\/products.json\\n\\n$key = $modx->getOption(\'simpleshopify.shopify_key\');\\n$pw = $modx->getOption(\'simpleshopify.shopify_password\');\\n$dom = $modx->getOption(\'simpleshopify.shopify_domain\');\\n$url = \\"https:\\/\\/\\".$key.\\":\\".$pw.\\"@\\".$dom.\\"\\/products.json\\";\\n\\n$ch = curl_init();\\n$timeout = 5;\\ncurl_setopt($ch, CURLOPT_URL, $url);\\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);\\ncurl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout);\\n$data = curl_exec($ch);\\ncurl_close($ch);\\nreturn $data;"}',
+        'guid' => '2bc1e8ccbbe9ef2b23e91cbc3a1f9e42',
+        'native_key' => NULL,
+        'signature' => 'ceb6b793563e8c3e25df902e9012d9ca',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Children' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'parent',
+        1 => 'category',
+      ),
+    ),
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Templates' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'templatename',
+    ),
+    'TemplateVars' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Plugins' => 
+    array (
+      'unique_key' => 'name',
+      'preserve_keys' => false,
+      'update_object' => true,
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'PluginEvents' => 
+        array (
+          'preserve_keys' => true,
+          'update_object' => false,
+          'unique_key' => 
+          array (
+            0 => 'pluginid',
+            1 => 'event',
+          ),
+        ),
+      ),
+    ),
+  ),
+  'namespace' => 'simpleshopify',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"simpleshopify-1.0.1-pl\\/modCategory\\/15af558f4ab0778c9de77225a1590581\\/0\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"simpleshopify"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"simpleshopify-1.0.1-pl\\/modCategory\\/15af558f4ab0778c9de77225a1590581\\/1\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"simpleshopify"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '6e7bff2b6d1ed99fb2862f3bbd595ea1',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '15af558f4ab0778c9de77225a1590581',
+  'native_key' => NULL,
+  'object' => '{"id":null,"parent":0,"category":"SimpleShopify","rank":0}',
+);
