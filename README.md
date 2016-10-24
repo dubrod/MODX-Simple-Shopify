@@ -17,7 +17,7 @@ You could use this package with just static JSON and the Access Token. API Key a
 
 If you go to https://YOURACCOUNTNAME.myshopify.com/products.json you should say the feed.
 
-In the `shopifyJs` chunk you will you can turn off *Dynamic Product Database Feed* and just use *Static Product Database Feed* and update that chunk manually.
+In the `shopifyJs` chunk you can turn off *Dynamic Product Database Feed* and just use *Static Product Database Feed* and update that chunk manually.
 
 *Why the hell would I do this?*
 
@@ -34,4 +34,4 @@ Incase you can't find the API Key check the instructions - https://help.shopify.
 5. Add the chunk `simpleshopify_cart` where you want the cart to be.
 6. Add the chunk `simpleshopify_js` to the `footer` of the template
 
-You now have a working cart! Congrats. 
+You now have a working cart! Congrats.

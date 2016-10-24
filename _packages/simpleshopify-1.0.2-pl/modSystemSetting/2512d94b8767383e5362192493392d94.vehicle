@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'simpleshopify',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'b826eb87c3d35d72b292a0a21f11ab1a',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '2512d94b8767383e5362192493392d94',
+  'native_key' => 'simpleshopify.shopify_domain',
+  'object' => '{"key":"simpleshopify.shopify_domain","value":"","xtype":"textfield","namespace":"simpleshopify","area":"default","editedon":null}',
+);
